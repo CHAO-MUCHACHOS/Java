@@ -12,6 +12,17 @@
 // confirm()
 // prompt
 // let num= +(prompt('число ') as string)
+// #1-2
+// let num = +(prompt('число ') as string)
+// if(num%2 !== 0){
+//     num-=1
+// }
+// for(let i = 2 ; i<num; i++){
+// if(i % 2 == 0){
+//     console.log(i);
+// }
+// }
+// console.log(i);
 // #3
 // function div (x){
 // for(let i=1;i<=x; i++){
@@ -31,4 +42,24 @@
 // console.log(9,
 //     dayOfWork(10)
 //     )
-var num = +prompt('число ');
+// const input1 = document.querySelector('input')
+// const button1 = document.querySelector('button')
+// const output1 = document.querySelector('#output')
+// let x = +(prompt("Введите число")as string)
+// x = x * x
+// console.log(x);
+// 12345
+// ---------------------------------------------------------
+// 9 PZ
+// let x = +(prompt(`Введите 5-ти значное число`)as string)
+//  let lastNum= x % 10
+//  String(lastNum)
+// let y = x % 10
+//  x -= y
+//  x /= 10
+//  console.log(`${lastNum}${x}`);
+var a = +prompt("1");
+var b = +prompt("2");
+var x = (a + b);
+var result = (x < 4) ? "мало" : "Много";
+console.log(result);
