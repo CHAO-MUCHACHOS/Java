@@ -58,8 +58,8 @@
 //  x -= y
 //  x /= 10
 //  console.log(`${lastNum}${x}`);
-var a = +prompt("1");
-var b = +prompt("2");
-var x = (a + b);
-var result = (x < 4) ? "мало" : "Много";
-console.log(result);
+// var a = +prompt("1");
+// var b = +prompt("2");
+// var x = (a + b);
+// var result = (x < 4) ? "мало" : "Много";
+// console.log(result);
