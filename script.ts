@@ -104,15 +104,23 @@
 
 
 
+// какое-то ДЗ
+// let a = +(prompt("1")as string)
+// let b = +(prompt("2")as string)
+// let x = (a + b)
+// let result = (x < 4) ? "мало" : "Много"
 
-
-let a = +(prompt("1")as string)
-let b = +(prompt("2")as string)
-let x = (a + b)
-let result = (x < 4) ? "мало" : "Много"
-
-console.log(result)
-
+// console.log(result)
 
 
 
+//Запросить у пользователя его возраст и определить, кем он 
+// является: ребенком (0–2), подростком (12–18), взрослым 
+// (18_60) или пенсионером (60– ...).
+
+let age = +( prompt ("Введите возраст") as string)
+
+
+if (age >= 0 || 1 || 2 ){
+alert("ребенок")
+}
