@@ -121,6 +121,6 @@
 let age = +( prompt ("Введите возраст") as string)
 
 
-if (age >= 0 || 1 || 2 ){
+if (age >= 0  || age <= 2){
 alert("ребенок")
 }
