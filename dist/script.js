@@ -8,15 +8,22 @@
 //     statement2;
 //     statement3;
 //    } while(condition)
+
 // alert()
+
 // confirm()
+
 // prompt
+
 // let num= +(prompt('число ') as string)
+
 // #1-2
+
 // let num = +(prompt('число ') as string)
 // if(num%2 !== 0){
 //     num-=1
 // }
+
 // for(let i = 2 ; i<num; i++){
 // if(i % 2 == 0){
 //     console.log(i);
@@ -24,6 +31,7 @@
 // }
 // console.log(i);
 // #3
+
 // function div (x){
 // for(let i=1;i<=x; i++){
 // if(x%i==0) console.log(i);
@@ -31,6 +39,7 @@
 // }
 // div(10)
 // #6
+
 // function dayOfWork(x) {
 //     let days = 0
 //     while(x>=10){
