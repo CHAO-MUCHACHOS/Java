@@ -8,22 +8,15 @@
 //     statement2;
 //     statement3;
 //    } while(condition)
-
 // alert()
-
 // confirm()
-
 // prompt
-
 // let num= +(prompt('число ') as string)
-
 // #1-2
-
 // let num = +(prompt('число ') as string)
 // if(num%2 !== 0){
 //     num-=1
 // }
-
 // for(let i = 2 ; i<num; i++){
 // if(i % 2 == 0){
 //     console.log(i);
@@ -31,7 +24,6 @@
 // }
 // console.log(i);
 // #3
-
 // function div (x){
 // for(let i=1;i<=x; i++){
 // if(x%i==0) console.log(i);
@@ -39,7 +31,6 @@
 // }
 // div(10)
 // #6
-
 // function dayOfWork(x) {
 //     let days = 0
 //     while(x>=10){
@@ -67,8 +58,28 @@
 //  x -= y
 //  x /= 10
 //  console.log(`${lastNum}${x}`);
-// var a = +prompt("1");
-// var b = +prompt("2");
-// var x = (a + b);
-// var result = (x < 4) ? "мало" : "Много";
-// console.log(result);
+// какое-то ДЗ
+// let a = +(prompt("1")as string)
+// let b = +(prompt("2")as string)
+// let x = (a + b)
+// let result = (x < 4) ? "мало" : "Много"
+// console.log(result)
+//Запросить у пользователя его возраст и определить, кем он 
+// является: ребенком (0–2), подростком (12–18), взрослым 
+// (18_60) или пенсионером (60– ...).
+var age = +prompt("Введите возраст");
+if (age >= 0 || age <= 2) {
+    alert("ребенок");
+}
+else if (age >= 12 || age <= 18) {
+    alert("подростoк");
+}
+else if (age >= 18 || age <= 60) {
+    alert("взрослый");
+}
+else
+    (age > 60);
+{
+    alert('Дед');
+}
+console.log(yhug);

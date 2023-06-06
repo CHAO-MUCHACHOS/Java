@@ -133,3 +133,4 @@ else if (age >= 18  || age <= 60){
 else (age > 60){
     alert('Дед')
 }
+console.log(yhug);
